@@ -19,6 +19,28 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.on_event("startup")
+def startup_db_init():
+    """Ensure database schema is created and default data seeded on first run"""
+    try:
+        from app.core.database import Base, engine, SessionLocal
+        from app.models.user import User
+        Base.metadata.create_all(bind=engine)
+        
+        db = SessionLocal()
+        try:
+            user_count = db.query(User).count()
+            if user_count == 0:
+                print("[Startup] Fresh database detected. Auto-seeding initial data and personas...")
+                import seed_database
+                seed_database.seed(reset=False)
+        except Exception as seed_err:
+            print(f"[Startup Seed Error]: {seed_err}")
+        finally:
+            db.close()
+    except Exception as e:
+        print(f"[Startup DB Init Error]: {e}")
+
 # Include Routers
 app.include_router(auth.router, prefix="/api")
 app.include_router(profile.router, prefix="/api")

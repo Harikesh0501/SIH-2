@@ -34,14 +34,17 @@ from app.models.passport import DigitalCredential
 from app.models.chat import ChatMessage
 from app.data.framework_loader import load_competency_framework, load_role_benchmarks
 
-def seed():
+def seed(reset: bool = True):
     print("=" * 60)
     print("[*] KARMAYOGI SANKHYIKI - DATABASE SEEDING ENGINE")
     print("=" * 60)
 
     # 1. Reset and Recreate Tables
-    print("[1/7] Initializing clean database schema...")
-    Base.metadata.drop_all(bind=engine)
+    if reset:
+        print("[1/7] Initializing clean database schema...")
+        Base.metadata.drop_all(bind=engine)
+    else:
+        print("[1/7] Ensuring database schema exists...")
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
 

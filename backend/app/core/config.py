@@ -33,9 +33,12 @@ class Settings(BaseSettings):
     @property
     def get_database_url(self) -> str:
         url = self.DATABASE_URL
-        # Normalize postgres:// to postgresql:// for SQLAlchemy
-        if url and url.startswith("postgres://"):
-            url = url.replace("postgres://", "postgresql://", 1)
+        # Normalize postgres:// and postgresql:// to postgresql+psycopg2:// for SQLAlchemy
+        if url:
+            if url.startswith("postgres://"):
+                url = url.replace("postgres://", "postgresql+psycopg2://", 1)
+            elif url.startswith("postgresql://") and not url.startswith("postgresql+"):
+                url = url.replace("postgresql://", "postgresql+psycopg2://", 1)
         return url
 
     class Config:
