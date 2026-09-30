@@ -5,13 +5,14 @@
 
 FROM python:3.11-slim
 
-# Prevent Python from writing .pyc files and enable unbuffered logging
+# Prevent Python from writing .pyc files, enable unbuffered logging, suppress pip root warning
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
+    PIP_ROOT_USER_ACTION=ignore \
     PORT=8000 \
     ENVIRONMENT=production
 
-# Install essential system dependencies (PostgreSQL client libs, build essentials, curl for healthcheck)
+# Install essential system dependencies (PostgreSQL client libs, build essentials, curl)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     libpq-dev \
@@ -35,10 +36,6 @@ RUN mkdir -p storage/uploads storage/reports app/storage
 
 # Expose backend application port
 EXPOSE 8000
-
-# Docker Healthcheck
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-    CMD curl -f http://localhost:${PORT}/api/health || exit 1
 
 # Start Uvicorn ASGI server
 CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
