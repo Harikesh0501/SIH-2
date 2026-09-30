@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: karmayogi-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - ENVIRONMENT=production
+      - DATABASE_URL=${DATABASE_URL:-sqlite:///./karmayogi.db}
+      - SECRET_KEY=${SECRET_KEY:-karmayogi_sankhyiki_secret_key_sih26101_secure_token_salt_2026}
+      - ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=1440
+      - NVIDIA_API_KEY=${NVIDIA_API_KEY:-}
+      - NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
+      - NVIDIA_MODEL=meta/llama-3.2-11b-vision-instruct
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - IGOT_API_BASE_URL=https://igotkarmayogi.gov.in/api/v1
+      - IGOT_MOCK_MODE=true
+      - PUBLIC_VERIFY_BASE_URL=${PUBLIC_VERIFY_BASE_URL:-http://localhost:3000/verify}
+    volumes:
+      - backend-storage:/app/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000/api}
+    container_name: karmayogi-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000/api}
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend-storage:

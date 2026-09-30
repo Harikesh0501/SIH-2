@@ -1,0 +1,44 @@
+GOVERNMENT OF INDIA
+MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION (MoSPI)
+NATIONAL STATISTICAL OFFICE (NSO) - ECONOMIC STATISTICS DIVISION (ESD)
+
+COMPILATION METHODOLOGY: INDEX OF INDUSTRIAL PRODUCTION (IIP) - BASE 2011-12=100
+CHAPTER 2: ITEM BASKET, WEIGHTING DIAGRAM AND LASPEYRES AGGREGATION
+
+1. Objective and Scope of IIP
+The Index of Industrial Production (IIP) is an abstract number indicating the salient volume changes in the production of an industry basket compared to a reference base period.
+In India, the current series of IIP uses 2011-12 as the base year and measures growth in three broad sectors:
+- Mining (Sector Weight: 14.37%)
+- Manufacturing (Sector Weight: 77.63%)
+- Electricity (Sector Weight: 7.99%)
+
+2. Use-Based Classification
+Beyond sectoral compilation, IIP provides policy insights through a 6-tier Use-Based Classification:
+1. Primary Goods (Weight: 34.05%): Mining, electricity, fuels, basic fertilizers.
+2. Capital Goods (Weight: 8.22%): Machinery, commercial vehicles, boilers, transformers used in gross fixed capital formation.
+3. Intermediate Goods (Weight: 17.22%): Yarns, chemical intermediates, steel rods, paints used as inputs in subsequent manufacturing.
+4. Infrastructure / Construction Goods (Weight: 12.34%): Cement, tiles, structural pipes, fixtures.
+5. Consumer Durables (Weight: 12.84%): Refrigerators, passenger vehicles, consumer electronics, furniture.
+6. Consumer Non-Durables (Weight: 15.33%): Packaged food, pharmaceuticals, soaps, edible oils, apparel.
+
+3. Source Data Collection Agencies
+Monthly production data are received from 14 source agencies across administrative ministries:
+- Department for Promotion of Industry and Internal Trade (DPIIT) - Major source for manufacturing.
+- Indian Bureau of Mines (IBM) - Mining production figures.
+- Central Electricity Authority (CEA) - Electricity generation from thermal, hydro, nuclear, and renewable sources.
+- Directorate of Sugar and Vegetable Oils, Coffee Board, Tea Board, Office of the Textile Commissioner.
+
+4. Aggregation Formula
+The index compilation adheres strictly to Laspeyres formula with base period weights:
+    IIP_t = \frac{\sum (W_i \times \frac{R_{it}}{R_{i0}})}{\sum W_i} \times 100
+Where:
+- IIP_t is the composite index for month t.
+- W_i is the assigned weight of item i in the base period 2011-12.
+- R_{it} is the reported physical production quantity of item i in month t.
+- R_{i0} is the base monthly average production of item i in 2011-12.
+
+5. Treatment of Non-Response and Revisions
+- Quick Estimates (QE): Released on the 12th of every month (or previous working day) with a time lag of six weeks.
+- First Revision: Carried out one month later alongside the subsequent release.
+- Final Revision: Compiled three months after initial release when late production returns from factories are validated.
+Non-response is handled using item-specific imputation based on the growth rates of reporting units within the same 4-digit NIC class.

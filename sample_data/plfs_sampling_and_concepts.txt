@@ -1,0 +1,46 @@
+GOVERNMENT OF INDIA
+MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION (MoSPI)
+NATIONAL STATISTICAL OFFICE (NSO)
+
+PERIODIC LABOUR FORCE SURVEY (PLFS)
+SAMPLING METHODOLOGY, ESTIMATION PROCEDURE AND CONCEPTS
+
+1. Background and Survey Design
+The Periodic Labour Force Survey (PLFS) was launched by the National Statistical Office (NSO) in April 2017 to measure employment and unemployment indicators at frequent intervals.
+A rotational panel sampling design is used in urban areas, while in rural areas, an independent sample is surveyed every year.
+
+2. Sampling Stages
+The sampling frame follows a Stratified Multi-Stage Design:
+- First Stage Units (FSUs):
+  - Rural Areas: Census villages (as per Population Census 2011).
+  - Urban Areas: Urban Frame Survey (UFS) blocks.
+- Selection of FSUs:
+  - In both rural and urban sectors, FSUs are selected with Probability Proportional to Size with Replacement (PPSWR) or systematic circular sampling, where size is the population of the village/UFS block.
+- Second Stage Units (SSUs):
+  - Households listed within selected FSUs. In each selected FSU, 8 sample households are selected using circular systematic sampling after stratifying households into three broad economic categories based on consumer expenditure and land possession.
+
+3. Measurement Approaches and Activity Status
+PLFS classifies individuals into three broad activity categories:
+(a) Working / Employed (engaged in economic activity)
+(b) Not working but seeking or available for work (Unemployed)
+(c) Neither working nor available for work (Out of Labour Force - e.g. students, homemakers, retired)
+
+Two key measurement approaches are utilized:
+1. Usual Status (ps+ss) Approach:
+   - Reference period is 365 days preceding the date of survey.
+   - Usual Principal Status (UPS): The activity status on which a person spent relatively long time (major time criterion) during the 365 days.
+   - Subsidiary Economic Status (SS): Any subsidiary economic activity pursued for 30 days or more during the reference year.
+   - Combined (ps+ss) reflects the persistent, long-term employment status.
+
+2. Current Weekly Status (CWS) Approach:
+   - Reference period is the 7 days preceding the date of survey.
+   - A person is considered employed if they worked for at least 1 hour on any day during the 7-day reference week.
+   - CWS captures short-term, seasonal, and intermittent labour fluctuations.
+
+4. Key Headline Labour Indicators
+- Labour Force Participation Rate (LFPR): Percentage of persons in the labour force (employed + unemployed) in the total population.
+    LFPR = \frac{\text{Employed} + \text{Unemployed}}{\text{Total Population}} \times 100
+- Worker Population Ratio (WPR): Percentage of employed persons in the total population.
+    WPR = \frac{\text{Employed}}{\text{Total Population}} \times 100
+- Unemployment Rate (UR): Percentage of unemployed persons in the labour force.
+    UR = \frac{\text{Unemployed}}{\text{Employed} + \text{Unemployed}} \times 100

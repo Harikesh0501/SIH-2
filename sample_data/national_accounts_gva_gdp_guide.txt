@@ -1,0 +1,34 @@
+GOVERNMENT OF INDIA
+MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION (MoSPI)
+CENTRAL STATISTICS OFFICE (CSO) - NATIONAL ACCOUNTS DIVISION (NAD)
+
+SOURCES AND METHODS: SYSTEM OF NATIONAL ACCOUNTS (SNA 2008)
+CHAPTER 1: MACROECONOMIC CONCEPTS, DEFINITIONS AND PRODUCTION BOUNDARY
+
+1. The SNA 2008 Framework in India
+The compilation of National Accounts in India conforms to the recommendations of the United Nations System of National Accounts 2008 (SNA 2008). 
+Headline growth of the economy is measured by Gross Domestic Product (GDP) at constant market prices, while sectoral economic performance is tracked through Gross Value Added (GVA) at basic prices.
+
+2. Production Boundary and Valuation of Output
+Output is valued at Basic Prices:
+- Basic Price: The amount receivable by the producer from the purchaser for a unit of a good or service produced as output, minus any tax payable, and plus any subsidy receivable on that unit as a consequence of its production or sale. It excludes any transport charges invoiced separately by the producer.
+
+3. Difference between GVA and GDP
+The fundamental accounting identity connects Gross Value Added (GVA) at basic prices with Gross Domestic Product (GDP) at market prices:
+    GDP at Market Prices = GVA at Basic Prices + Net Taxes on Products
+Where:
+    Net Taxes on Products = Product Taxes - Product Subsidies
+
+Distinction between Product Taxes and Production Taxes:
+- Production Taxes / Subsidies: Paid or received on the production activity itself, independent of the quantity or volume of goods and services produced.
+  Examples of Production Taxes: Land revenue, stamp duties, registration fees, municipal taxes on factories, professional tax.
+  Examples of Production Subsidies: Subsidies to railways, input subsidies to farmers, interest subsidies.
+- Product Taxes / Subsidies: Directly levied or granted per unit of good or service produced or transacted.
+  Examples of Product Taxes: Goods and Services Tax (GST), central excise duties, custom duties, sales tax, service tax.
+  Examples of Product Subsidies: Food subsidies (NFSA), petroleum subsidy, fertilizer subsidy.
+
+4. Supply and Use Tables (SUT)
+Supply and Use Tables provide a comprehensive reconciliation of the economy at a detailed commodity and industry level.
+- Supply Table: Demonstrates the supply of goods and services from domestic production and imports at basic prices and purchasers' prices.
+- Use Table: Demonstrates the intermediate consumption and final disposition of goods and services across Government Final Consumption Expenditure (GFCE), Private Final Consumption Expenditure (PFCE), Gross Capital Formation (GCF), and Exports.
+Reconciling SUT guarantees that statistical discrepancies between the production approach and the expenditure approach of GDP are minimized.

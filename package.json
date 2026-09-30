@@ -1,0 +1,24 @@
+{
+  "name": "sih26101-karmayogi-sankhyiki",
+  "version": "1.0.0",
+  "description": "AI-Enabled Skill Intelligence & Learning Platform for India's Official Statistical System (MoSPI/NSSTA)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed:backend": "cd backend && python seed_database.py",
+    "test:backend": "cd backend && pytest"
+  },
+  "keywords": [
+    "sih2026",
+    "mospi",
+    "nssta",
+    "igot-karmayogi",
+    "official-statistics",
+    "competency-gap-analysis",
+    "adaptive-quiz-engine",
+    "skill-passport"
+  ],
+  "author": "SIH Team",
+  "license": "MIT"
+}

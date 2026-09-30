@@ -1,0 +1,46 @@
+GOVERNMENT OF INDIA
+MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION (MoSPI)
+NATIONAL STATISTICAL OFFICE (NSO)
+CENTRAL STATISTICS OFFICE (CSO)
+
+MANUAL ON CONSUMER PRICE INDEX (CPI) - BASE 2012=100
+CHAPTER 3: CONCEPTS, DEFINITIONS AND COMPILATION METHODOLOGY
+
+1. Introduction and Objectives
+The Consumer Price Index (CPI) measures changes over time in the general level of prices of consumer goods and services that households acquire, utilize, or pay for consumption. The All-India CPI is compiled separately for Rural, Urban, and Combined sectors on a monthly basis.
+
+2. Weighting Diagram and Basket Formulation
+The current series of All-India CPI uses 2012 as the base year (Base: 2012=100). The weighting diagrams for CPI (Rural), CPI (Urban), and CPI (Combined) are derived from the results of the 68th Round of the Household Consumer Expenditure Survey (HCES) conducted by the National Sample Survey Office (NSSO). 
+The commodity basket is divided into six major groups:
+- Group 1: Food and Beverages (Weight: 45.86% in Combined)
+- Group 2: Pan, Tobacco, and Intoxicants (Weight: 2.38%)
+- Group 3: Clothing and Footwear (Weight: 6.53%)
+- Group 4: Housing (Urban only; Weight: 10.07% in Combined)
+- Group 5: Fuel and Light (Weight: 6.84%)
+- Group 6: Miscellaneous (Weight: 28.32%)
+
+3. Price Collection Mechanism
+Price data are collected on a regular weekly and monthly frequency:
+- Rural Sector: Price quotations are collected from 1,181 selected village markets spread across all States and Union Territories by the Department of Posts (India Post).
+- Urban Sector: Price quotations are collected from 1,114 selected urban markets spread across 310 towns by the Field Operations Division (FOD) of NSO.
+
+4. Index Compilation Formula
+The index compilation follows a two-stage aggregation procedure:
+Stage 1: Elementary Aggregation (Item level within a market)
+At the elementary aggregate level, price relatives of individual varieties within an item are aggregated using the Geometric Mean (Jevons Index) to minimize substitution bias:
+    R_i = \prod (P_{it} / P_{i0})^{(1/n)}
+
+Stage 2: Higher Level Aggregation (Sub-group, Group, and General Index)
+Higher-level indices are compiled using the Modified Laspeyres Base-Weighted Arithmetic Mean Formula:
+    I_t = \frac{\sum (W_i \times \frac{P_{it}}{P_{i0}})}{\sum W_i} \times 100
+Where:
+- I_t is the index number for the current period t.
+- W_i is the fixed expenditure weight of item i derived from the base period survey.
+- P_{it} is the current price of item i.
+- P_{i0} is the base period price of item i.
+
+5. Treatment of Missing Quotations and Seasonal Items
+When a price quotation is temporarily unavailable, imputation is carried out using:
+a) Cell-mean imputation: The price movement of similar varieties in the same market is imputed.
+b) Carry-forward method: Used only when price changes are strictly negligible for non-perishable goods.
+For seasonal items (particularly fruits and vegetables), variable monthly baskets or counter-seasonal imputation methods are utilized to prevent artificial index volatility.

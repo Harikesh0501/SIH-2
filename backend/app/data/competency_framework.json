@@ -1,0 +1,710 @@
+{
+  "domains": [
+    {
+      "code": "STATISTICAL",
+      "name": "Official Statistical Methodologies & Standards",
+      "description": "Core competencies covering official national statistics, sampling, survey design, macroeconomic accounts, price indices, and quality frameworks."
+    },
+    {
+      "code": "TECHNICAL",
+      "name": "Data Science, Analytics & Computational Tools",
+      "description": "Modern technical competencies including statistical programming, database systems, geospatial GIS, visualization, and AI/ML applications."
+    },
+    {
+      "code": "DIGITAL_GOVERNANCE",
+      "name": "Digital Public Infrastructure & Data Stewardship",
+      "description": "Government cybersecurity, DPDP Act 2023 compliance, MeghRaj cloud, e-Office, and secure statistical disclosure protocols."
+    },
+    {
+      "code": "BEHAVIOURAL_MANAGERIAL",
+      "name": "Leadership, Management & Statistical Ethics",
+      "description": "UN Fundamental Principles of Official Statistics, field survey administration, evidence-based policy communication, and leadership."
+    }
+  ],
+  "competencies": [
+    {
+      "code": "STAT-SURV",
+      "name": "Survey Design & Sampling Methodologies",
+      "domain": "STATISTICAL",
+      "description": "Multi-stage stratified sampling, probability proportional to size (PPS), sample size estimation, listing procedures, sampling and non-sampling error handling for NSSO operations.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic Understanding of Survey Concepts",
+          "knowledge_indicators": ["Understands population vs sample", "Aware of simple random sampling vs stratified sampling", "Familiar with survey schedules"],
+          "skill_indicators": ["Can identify First Stage Units (FSUs) and Ultimate Stage Units (USUs)", "Follows field listing instructions"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Survey Execution",
+          "knowledge_indicators": ["Knowledge of NSS stratified multi-stage design", "Awareness of circular systematic sampling and PPSWR", "Familiarity with sampling frames (Census villages & UFS blocks)"],
+          "skill_indicators": ["Conducts household listing and selection accurately", "Applies multiplier formulas to compute initial sub-sample totals"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Sampling Practitioner",
+          "knowledge_indicators": ["In-depth understanding of PPS selection algorithms", "Sample allocation techniques across rural/urban strata", "Non-response imputation rules"],
+          "skill_indicators": ["Determines sample size for specified margin of error", "Calculates sampling variance using sub-sample replicate methods", "Validates field survey multipliers"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Advanced Survey Designer",
+          "knowledge_indicators": ["Complex multi-stage sample design theory", "Small Area Estimation (SAE) methodologies", "Design effect (Deff) optimization"],
+          "skill_indicators": ["Formulates survey stratification criteria for national socioeconomic surveys", "Designs dual-frame survey methodologies", "Mitigates non-sampling bias"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Survey Methodologist",
+          "knowledge_indicators": ["International survey standards (UNSD, ILO)", "Integration of administrative big data with survey frames", "Novel machine learning sampling optimization"],
+          "skill_indicators": ["Authors national survey sampling methodology guidelines", "Advises National Statistical Commission (NSC) on census and sample survey design"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-NAS",
+      "name": "National Accounts Statistics (SNA)",
+      "domain": "STATISTICAL",
+      "description": "System of National Accounts (SNA 2008/2025), Gross Value Added (GVA) at basic prices, GDP at market prices, Supply and Use Tables (SUT), informal sector estimation, and capital formation.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Macroeconomic Aggregates",
+          "knowledge_indicators": ["Defines GDP, GVA, and Net National Income", "Understands difference between nominal and real GDP"],
+          "skill_indicators": ["Extracts published National Accounts data from MoSPI portal"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational National Accounting",
+          "knowledge_indicators": ["Understands production, expenditure, and income approaches to GDP", "Difference between GVA at basic prices and GDP at market prices", "Distinction between product taxes and production taxes"],
+          "skill_indicators": ["Computes sectoral growth rates", "Reconciles intermediate consumption for formal enterprises"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent National Accounts Compiler",
+          "knowledge_indicators": ["Compilation of Supply and Use Tables (SUT)", "Estimation of informal economy using unorganized sector enterprise surveys", "Gross Fixed Capital Formation (GFCF) methodology"],
+          "skill_indicators": ["Applies double deflation method for manufacturing and trade sectors", "Computes quarterly GDP estimates using high-frequency indicators"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Macroeconomic Accounts Specialist",
+          "knowledge_indicators": ["SNA 2008 institutional sector accounts (Financial, Non-financial, General Gov, Households, NPISH)", "Financial balance sheets and flow of funds", "Financial Intermediation Services Indirectly Measured (FISIM) allocation"],
+          "skill_indicators": ["Reconciles statistical discrepancies between production and expenditure approaches", "Designs base year revision methodologies"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master National Accounts Authority",
+          "knowledge_indicators": ["UN SNA 2025 updates (Digital economy, Environmental-economic accounting SEEA, Intellectual property)", "Global trade in value added (TiVA)"],
+          "skill_indicators": ["Leads national accounts revision for India", "Formulates macroeconomic statistical policy for Ministry of Finance and NITI Aayog"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-PRICE",
+      "name": "Price Statistics & Index Numbers",
+      "domain": "STATISTICAL",
+      "description": "All-India Consumer Price Index (CPI), Wholesale Price Index (WPI), Index of Industrial Production (IIP), elementary aggregation (Jevons), Laspeyres formula, item basket weighting, and quality adjustment.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic Understanding of Price Indices",
+          "knowledge_indicators": ["Understands what CPI and inflation represent", "Aware of base period concept (2012=100)"],
+          "skill_indicators": ["Interprets headline CPI press releases"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Price Compilation",
+          "knowledge_indicators": ["Modified Laspeyres formula with base period expenditure weights", "Difference between CPI Rural, Urban, and Combined", "Elementary aggregation using geometric mean (Jevons)"],
+          "skill_indicators": ["Computes price relatives for individual items", "Applies monthly price quotation validation rules"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Price Index Analyst",
+          "knowledge_indicators": ["Item substitution rules and missing price imputation (carry forward, cell mean)", "Seasonal commodity basket adjustment (fruits and vegetables)", "Housing index compilation (chain index)"],
+          "skill_indicators": ["Compiles sub-group and group level indices", "Calculates inflation contribution by commodity groups", "Conducts price outlet variance analysis"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Price Index Methodologist",
+          "knowledge_indicators": ["Hedonic price regression for high-tech goods", "Chain-linked Fisher and Tornqvist indices", "Harmonized index methodologies for international comparison"],
+          "skill_indicators": ["Designs item sampling and outlet selection frameworks for new base years", "Revises CPI weighting diagrams based on Household Consumption Expenditure Survey (HCES)"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Price Statistician",
+          "knowledge_indicators": ["Scanner data and web scraping integration in CPI", "Digital transaction prices in index compilation", "Superlative index theory"],
+          "skill_indicators": ["Authors national price index revision guidelines", "Leads Technical Advisory Committee on Price Indices (TAC-PI)"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-LABOUR",
+      "name": "Labour & Employment Statistics",
+      "domain": "STATISTICAL",
+      "description": "Periodic Labour Force Survey (PLFS), Usual Principal and Subsidiary Status (UPSS), Current Weekly Status (CWS), Labour Force Participation Rate (LFPR), Worker Population Ratio (WPR), and Unemployment Rate (UR).",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Labour Concepts",
+          "knowledge_indicators": ["Defines employed, unemployed, and out of labour force", "Aware of quarterly vs annual PLFS reports"],
+          "skill_indicators": ["Reads standard labour indicator tables"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Labour Measurement",
+          "knowledge_indicators": ["Understands LFPR, WPR, and UR mathematical formulas", "Difference between 365-day Usual Status and 7-day Current Weekly Status"],
+          "skill_indicators": ["Classifies survey respondents by activity status codes", "Calculates basic employment rates"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Labour Statistician",
+          "knowledge_indicators": ["Principal activity vs subsidiary economic activity rules", "Disaggregation by NIC/NCO codes (industry & occupation)", "Informal employment in formal sector measurement"],
+          "skill_indicators": ["Analyzes quarterly rotational panel data in urban areas", "Computes youth and female labour force participation trajectories"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Labour Market Analyst",
+          "knowledge_indicators": ["ILO 19th and 20th ICLS standards on work, employment, and labour underutilization", "Longitudinal panel attrition weighting"],
+          "skill_indicators": ["Designs employment transition matrices between quarters", "Formulates policy papers on gig and platform worker measurement"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Labour Statistics Authority",
+          "knowledge_indicators": ["Global international labour standards", "Integration of EPFO/ESIC administrative payroll data with household survey estimates"],
+          "skill_indicators": ["Guides MoSPI and Ministry of Labour on national employment metrics", "Represents India at ILO International Conference of Labour Statisticians"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-AGRI",
+      "name": "Agricultural & Rural Statistics",
+      "domain": "STATISTICAL",
+      "description": "Agricultural Census, Crop Cutting Experiments (CCE), crop yield estimation, land use statistics, agricultural inputs, and rural price monitoring.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic Knowledge of Agricultural Surveys",
+          "knowledge_indicators": ["Aware of Kharif and Rabi crop seasons", "Understands Agricultural Census basic concepts"],
+          "skill_indicators": ["Identifies standard crop recording formats"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Agricultural Data Collection",
+          "knowledge_indicators": ["Procedures for Crop Cutting Experiments (CCE)", "Methodology of General Crop Estimation Surveys (GCES)"],
+          "skill_indicators": ["Monitors crop acreage and yield data reporting from patwari records"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Agricultural Statistician",
+          "knowledge_indicators": ["Sampling methodology for CCE plots", "Farmer household income and indebtedness measurement (NSS Situation Assessment Survey)"],
+          "skill_indicators": ["Computes district and state level crop production estimates with standard errors", "Reconciles satellite remote sensing crop estimates with ground CCE data"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Agricultural Analyst",
+          "knowledge_indicators": ["Advanced econometric modelling of crop yield and climate variance", "Horticultural and livestock statistics estimation"],
+          "skill_indicators": ["Designs integrated agricultural surveys", "Optimizes sample size of CCEs using spatial stratification"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Agricultural Authority",
+          "knowledge_indicators": ["Global Agricultural Statistics Strategy (FAO)", "Digital agriculture data architecture (AgriStack)"],
+          "skill_indicators": ["Formulates national agricultural statistical policies for Ministry of Agriculture and MoSPI"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-INDUS",
+      "name": "Industrial & Enterprise Statistics",
+      "domain": "STATISTICAL",
+      "description": "Annual Survey of Industries (ASI), factory sector census vs sample, National Industrial Classification (NIC), Index of Industrial Production (IIP), and enterprise surveys.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Industrial Surveys",
+          "knowledge_indicators": ["Aware of Factories Act 1948 coverage in ASI", "Basic knowledge of IIP"],
+          "skill_indicators": ["Identifies enterprise registration numbers"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Enterprise Survey Compilation",
+          "knowledge_indicators": ["Census sector (100+ workers) vs Sample sector in ASI", "Concepts of Gross Output, Net Value Added, and Invested Capital in factories"],
+          "skill_indicators": ["Validates ASI Part-I and Part-II returns from factory balance sheets"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Industrial Statistician",
+          "knowledge_indicators": ["NIC-2008 4-digit and 5-digit industrial classification rules", "Monthly compilation of IIP by item baskets (Mining, Manufacturing, Electricity)", "Handling unit non-response and closure imputation"],
+          "skill_indicators": ["Calculates capital-output ratios and labor productivity metrics", "Audits microdata consistency across survey years"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Industrial Methodologist",
+          "knowledge_indicators": ["Business Register of India (BRI) integration", "GST data linkage with enterprise survey frames"],
+          "skill_indicators": ["Develops item baskets for IIP base year revision", "Designs surveys for service sector enterprises"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Industrial Statistics Authority",
+          "knowledge_indicators": ["UN International Recommendations for Industrial Statistics (IRIS)", "Global value chain and multinational enterprise statistics"],
+          "skill_indicators": ["Heads Standing Committee on Industrial Statistics", "Advises DPIIT on industrial production and investment indices"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-SDG",
+      "name": "SDG Indicators & Localization",
+      "domain": "STATISTICAL",
+      "description": "National Indicator Framework (NIF) for Sustainable Development Goals, State Indicator Framework (SIF), metadata reporting, data disaggregation, and leave-no-one-behind metrics.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of 17 SDGs",
+          "knowledge_indicators": ["Recognizes the 17 UN Sustainable Development Goals", "Aware of India's commitment to Agenda 2030"],
+          "skill_indicators": ["Navigates the national MoSPI SDG Dashboard"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational SDG Monitoring",
+          "knowledge_indicators": ["Structure of the National Indicator Framework (NIF)", "Difference between Global SDG Indicators and National Indicators"],
+          "skill_indicators": ["Compiles raw data from administrative line ministries for NIF indicators"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent SDG Specialist",
+          "knowledge_indicators": ["Metadata standards for Tier I, II, and III SDG indicators", "Data disaggregation methodologies by gender, geography, and social groups"],
+          "skill_indicators": ["Computes composite SDG baseline and progress scores", "Assists State DES in developing District Indicator Frameworks (DIF)"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient SDG Localization Strategist",
+          "knowledge_indicators": ["Statistical methodologies for SDG Index benchmarking", "Inter-indicator trade-off and synergy modelling"],
+          "skill_indicators": ["Authors State SDG progress reports", "Reconciles data discrepancies across central ministries and international custodian agencies"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master SDG Data Authority",
+          "knowledge_indicators": ["UN Statistical Commission SDG monitoring frameworks", "Global custodian agency metadata harmonization"],
+          "skill_indicators": ["Represents India at UN High-Level Political Forum (HLPF) on Sustainable Development", "Directs national SDG monitoring policy"]
+        }
+      ]
+    },
+    {
+      "code": "STAT-DQAF",
+      "name": "Data Quality Assurance Framework (DQAF)",
+      "domain": "STATISTICAL",
+      "description": "UN and MoSPI Data Quality Assurance Framework (DQAF), validation rules, plausibility checks, outlier detection, statistical metadata standards (SDMX, DDI), and dissemination ethics.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Data Quality",
+          "knowledge_indicators": ["Understands why data accuracy matters", "Aware of common field data entry errors"],
+          "skill_indicators": ["Identifies missing values and obvious data typos"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Quality Validation",
+          "knowledge_indicators": ["MoSPI Data Quality dimensions (relevance, accuracy, timeliness, accessibility, interpretability, coherence)", "Standard range and cross-field consistency checks"],
+          "skill_indicators": ["Executes automated validation scripts on survey datasets", "Flags outliers using statistical interquartile range (IQR) rules"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Quality Assurance Officer",
+          "knowledge_indicators": ["Imputation methodologies for item non-response (hot deck, cold deck, mean ratio)", "Plausibility audits against historical survey benchmarks"],
+          "skill_indicators": ["Authors automated data scrutiny programs", "Generates comprehensive Data Quality Audit reports before microdata release"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Data Quality Architect",
+          "knowledge_indicators": ["Statistical Data and Metadata Exchange (SDMX) standards", "Data Documentation Initiative (DDI) compliance for survey archives", "Statistical disclosure control (SDC) to prevent re-identification"],
+          "skill_indicators": ["Formulates quality assurance protocols for new nationwide surveys", "Conducts microdata anonymization and perturbation"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Quality Framework Authority",
+          "knowledge_indicators": ["IMF Special Data Dissemination Standard (SDDS Plus)", "Global UN Fundamental Principles audit mechanisms"],
+          "skill_indicators": ["Leads national statistical quality certification", "Authors MoSPI National Quality Policy for Official Statistics"]
+        }
+      ]
+    },
+    {
+      "code": "TECH-PYST",
+      "name": "Python for Statistical Computing",
+      "domain": "TECHNICAL",
+      "description": "Data wrangling with Pandas/NumPy, exploratory statistical analysis, automated validation pipelines, Statsmodels, and large microdata processing in Python.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic Python Syntax",
+          "knowledge_indicators": ["Python data types, lists, dictionaries, loops, and functions"],
+          "skill_indicators": ["Writes basic Python scripts to load CSV files"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Data Wrangling",
+          "knowledge_indicators": ["Pandas DataFrame indexing, filtering, groupby, and merging", "Handling missing values and data type conversions"],
+          "skill_indicators": ["Cleans messy survey datasets and exports summary cross-tabulations"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Statistical Programmer",
+          "knowledge_indicators": ["SciPy and Statsmodels for hypothesis testing, OLS regression, ANOVA", "Vectorized calculations for weighted survey estimation"],
+          "skill_indicators": ["Builds automated end-to-end data processing pipelines for monthly price and production indices", "Applies multiplier weights to compute national aggregates"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Advanced Python Analytics Engineer",
+          "knowledge_indicators": ["Parallel processing with Dask/Multiprocessing for massive census microdata", "Object-oriented statistical package development"],
+          "skill_indicators": ["Authors custom internal Python libraries for MoSPI survey validation", "Optimizes memory usage for multi-gigabyte survey rounds"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Statistical Software Architect",
+          "knowledge_indicators": ["Production microservices architecture", "Integration with cloud databases and high-performance computing"],
+          "skill_indicators": ["Architects national data processing infrastructure for all central statistical surveys"]
+        }
+      ]
+    },
+    {
+      "code": "TECH-RPRG",
+      "name": "R Programming & Econometrics",
+      "domain": "TECHNICAL",
+      "description": "Tidyverse, complex survey analysis with R 'survey' package, seasonal adjustment (X-13ARIMA-SEATS), econometric time-series modelling, and R Markdown reporting.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic R Syntax",
+          "knowledge_indicators": ["Vectors, matrices, data frames, and basic plotting in R"],
+          "skill_indicators": ["Runs descriptive summary statistics in R"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Tidyverse Analysis",
+          "knowledge_indicators": ["Dplyr verbs (filter, select, mutate, summarize), tidyr pivot functions", "Ggplot2 visualization fundamentals"],
+          "skill_indicators": ["Transforms survey raw data into tidy datasets", "Produces publication-ready statistical charts"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Survey Analyst in R",
+          "knowledge_indicators": ["R 'survey' package for complex multistage stratified sampling estimation", "Standard error computation under design effects", "X-13ARIMA-SEATS for seasonal adjustment of monthly indicators"],
+          "skill_indicators": ["Calculates weighted point estimates and confidence intervals for PLFS", "Performs seasonal adjustment on industrial production indices"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Advanced Econometrician",
+          "knowledge_indicators": ["Vector Autoregressions (VAR), Cointegration, Panel Data Econometrics", "Synthetic control methods for policy evaluation"],
+          "skill_indicators": ["Develops macroeconomic forecasting models for national accounts", "Builds automated reproducible R Markdown analytical briefs"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Statistical Modeler",
+          "knowledge_indicators": ["CRAN package development", "Bayesian hierarchical modeling for small area estimation"],
+          "skill_indicators": ["Designs official statistical packages adopted across Indian statistical directorates"]
+        }
+      ]
+    },
+    {
+      "code": "TECH-DBQL",
+      "name": "SQL & Relational Database Management",
+      "domain": "TECHNICAL",
+      "description": "PostgreSQL, complex SQL queries, window functions, indexing, relational database schema design, and handling relational census and enterprise survey databases.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic SQL Querying",
+          "knowledge_indicators": ["SELECT, FROM, WHERE, ORDER BY clauses", "Basic aggregate functions (COUNT, SUM, AVG)"],
+          "skill_indicators": ["Extracts filtered records from survey databases"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational SQL Data Manipulation",
+          "knowledge_indicators": ["INNER, LEFT, RIGHT JOINs across relational tables", "GROUP BY and HAVING clauses", "Date and string manipulation functions"],
+          "skill_indicators": ["Merges household characteristics with person-level survey schedules"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Database Practitioner",
+          "knowledge_indicators": ["Window functions (ROW_NUMBER, RANK, LAG, LEAD)", "Common Table Expressions (CTEs) and subqueries", "Index optimization (B-tree, GIN)"],
+          "skill_indicators": ["Writes high-performance queries for multi-million row census records", "Generates complex cross-tabulations directly in SQL"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Advanced Data Warehouse Engineer",
+          "knowledge_indicators": ["Star/Snowflake schema design for statistical data marts", "Partitioning strategies for time-series economic indicators", "Query execution plan analysis (EXPLAIN ANALYZE)"],
+          "skill_indicators": ["Designs central data repository for historical survey rounds", "Optimizes OLAP database pipelines"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Database Architect",
+          "knowledge_indicators": ["Enterprise database clustering, high availability, and sharding", "Integration with distributed systems"],
+          "skill_indicators": ["Directs national database architecture for MoSPI data lake"]
+        }
+      ]
+    },
+    {
+      "code": "TECH-GIS",
+      "name": "Geospatial Analytics & GIS",
+      "domain": "TECHNICAL",
+      "description": "QGIS, ArcGIS, Bhuvan integration, geospatial sampling frames, spatial stratification, thematic mapping of socioeconomic indicators, and satellite imagery analysis.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Geospatial Concepts",
+          "knowledge_indicators": ["Understands coordinates (Latitude/Longitude), Shapefiles, and GeoJSON"],
+          "skill_indicators": ["Views thematic maps on national portals (Bhuvan, Bharat Maps)"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational GIS Mapping",
+          "knowledge_indicators": ["Coordinate reference systems (WGS84, UTM)", "Vector vs raster spatial data in QGIS"],
+          "skill_indicators": ["Creates choropleth maps displaying district-level poverty and literacy indicators", "Performs spatial joins between administrative boundary polygons and survey aggregates"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Spatial Analyst",
+          "knowledge_indicators": ["Geospatial sampling frame preparation for Urban Frame Survey (UFS)", "Spatial autocorrelation (Moran's I) and hotspot analysis"],
+          "skill_indicators": ["Generates digital ward and block sampling boundaries for FOD field investigators", "Integrates satellite NDVI data for agricultural survey stratification"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Geospatial Modeler",
+          "knowledge_indicators": ["Geographically Weighted Regression (GWR)", "Remote sensing land cover classification using Python/GEE (Google Earth Engine)"],
+          "skill_indicators": ["Designs spatial stratification methodologies for national surveys", "Develops interactive web-GIS mapping dashboards"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Spatial Statistician",
+          "knowledge_indicators": ["UN Integrated Geospatial Information Framework (IGIF)", "National spatial public data infrastructure policy"],
+          "skill_indicators": ["Leads MoSPI-ISRO collaboration on geospatial statistical modernization"]
+        }
+      ]
+    },
+    {
+      "code": "TECH-VIZ",
+      "name": "Data Visualization & Storytelling",
+      "domain": "TECHNICAL",
+      "description": "Power BI, Tableau, Plotly, D3.js, interactive dashboards, accessible infographics, and communicating complex statistics to parliamentary and executive audiences.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic Charting",
+          "knowledge_indicators": ["Standard charts (bar, line, pie, scatter) and their appropriate use"],
+          "skill_indicators": ["Creates basic charts in Excel or Power BI"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Interactive Dashboards",
+          "knowledge_indicators": ["Color theory and accessible visual contrast", "Interactive filtering, slicers, and drill-downs in Power BI"],
+          "skill_indicators": ["Builds interactive dashboards for monthly economic release monitoring"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Visual Storyteller",
+          "knowledge_indicators": ["Visual hierarchy and statistical storytelling frameworks", "Small multiples, boxplots, and distribution density charts"],
+          "skill_indicators": ["Designs executive infographics for Cabinet Notes and press briefings", "Constructs animated time-series charts illustrating state disparities"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Dissemination Architect",
+          "knowledge_indicators": ["Web visualization with Plotly/D3.js", "User experience (UX) design for public statistical portals"],
+          "skill_indicators": ["Develops interactive web applications for public microdata dissemination", "Conducts visual data audits for parliamentary reports"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Statistical Communicator",
+          "knowledge_indicators": ["Global statistical dissemination best practices (Eurostat, UNSD)", "Media and public engagement strategies"],
+          "skill_indicators": ["Defines national dissemination and data visualization style guide for MoSPI"]
+        }
+      ]
+    },
+    {
+      "code": "TECH-AIML",
+      "name": "AI & Machine Learning in Official Statistics",
+      "domain": "TECHNICAL",
+      "description": "Supervised & unsupervised ML, automated missing value imputation, NLP for text classification of occupation/industry codes, time-series forecasting, and satellite imagery deep learning.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of AI/ML Capabilities",
+          "knowledge_indicators": ["Understands difference between traditional statistics and machine learning", "Aware of generative AI concepts"],
+          "skill_indicators": ["Identifies potential use cases for AI in survey processing"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational ML Understanding",
+          "knowledge_indicators": ["Supervised vs unsupervised learning", "Training/test splits, overfitting, precision, recall, and F1-score"],
+          "skill_indicators": ["Applies Scikit-learn algorithms (Random Forest, K-Means) on cleaned statistical tabular data"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent AI/ML Practitioner",
+          "knowledge_indicators": ["Machine learning-based imputation (MissForest, KNN, Autoencoders)", "Natural Language Processing (NLP) for automated coding of verbatim survey job descriptions to 5-digit NCO/NIC codes"],
+          "skill_indicators": ["Builds automated classification pipelines for survey text fields", "Develops machine learning models for early GDP nowcasting using high-frequency signals"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient AI Solution Designer",
+          "knowledge_indicators": ["Deep learning (CNNs) for satellite-based crop yield and roof-type classification", "Explainable AI (SHAP, LIME) for algorithmic transparency in official estimates"],
+          "skill_indicators": ["Deploys computer vision models to verify field survey geotagged images", "Audits AI models for demographic and sampling fairness"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master AI Strategy Leader",
+          "knowledge_indicators": ["Ethical AI governance in public statistics", "LLM fine-tuning on government knowledge bases"],
+          "skill_indicators": ["Authors National AI Strategy for Official Statistics", "Advises government on sovereign AI adoption in data governance"]
+        }
+      ]
+    },
+    {
+      "code": "GOV-CYBER",
+      "name": "Information Security in Government Systems",
+      "domain": "DIGITAL_GOVERNANCE",
+      "description": "Cyber hygiene, CERT-In guidelines, password security, multi-factor authentication, incident reporting, secure data transfer, and protecting confidential survey microdata.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Basic Cyber Hygiene",
+          "knowledge_indicators": ["Recognizes phishing emails and malicious links", "Password best practices"],
+          "skill_indicators": ["Uses multi-factor authentication on government portals (e-Office, Parichay)"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Gov Information Security",
+          "knowledge_indicators": ["CERT-In security guidelines for central government ministries", "Removable media (USB) restrictions", "Safe browsing protocols"],
+          "skill_indicators": ["Reports suspicious cyber incidents to departmental Chief Information Security Officer (CISO)"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Data Security Officer",
+          "knowledge_indicators": ["Data encryption standards (AES-256 in transit and at rest)", "Access control lists (ACL) and role-based permissions for server microdata"],
+          "skill_indicators": ["Configures secure FTP/SFTP pipelines for field data transfer", "Audits server access logs for unauthorized intrusion attempts"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Security Architect",
+          "knowledge_indicators": ["Vulnerability assessment and penetration testing (VAPT) principles", "Zero Trust Architecture in government IT"],
+          "skill_indicators": ["Leads cyber audits for departmental statistical portal releases", "Formulates Disaster Recovery and Business Continuity Plans (DR/BCP)"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Government Security Officer",
+          "knowledge_indicators": ["National Cyber Security Policy", "Critical information infrastructure protection (NCIIPC)"],
+          "skill_indicators": ["Serves as Ministry CISO, ensuring full compliance with national cyber defense directives"]
+        }
+      ]
+    },
+    {
+      "code": "GOV-DPDP",
+      "name": "Data Privacy & DPDP Act 2023",
+      "domain": "DIGITAL_GOVERNANCE",
+      "description": "Digital Personal Data Protection Act 2023 compliance, Data Fiduciary obligations, consent management, anonymization, differential privacy, and statistical disclosure limitation.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Data Privacy",
+          "knowledge_indicators": ["Understands that individual survey respondents have rights to data privacy", "Aware of the DPDP Act 2023"],
+          "skill_indicators": ["Maintains confidentiality of respondent names and addresses"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Privacy Compliance",
+          "knowledge_indicators": ["Key provisions of DPDP Act 2023 (Data Principal, Data Fiduciary, Purpose Limitation)", "Penalties for unauthorized disclosure of personal data"],
+          "skill_indicators": ["Applies standard data de-identification techniques (removing direct identifiers like Aadhaar, Phone, Name)"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Privacy Practitioner",
+          "knowledge_indicators": ["Statistical Disclosure Limitation (SDL) methods: k-anonymity, l-diversity, cell suppression in cross-tabulations", "Quasi-identifier risk evaluation"],
+          "skill_indicators": ["Audits public microdata files to ensure zero respondent re-identification risk", "Manages consent documentation for household survey schedules"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Privacy Architect",
+          "knowledge_indicators": ["Differential Privacy (epsilon, delta privacy budget allocation)", "Synthetic data generation for open data sharing"],
+          "skill_indicators": ["Implements differential privacy mechanisms on sensitive health and economic surveys", "Formulates privacy-preserving data sharing agreements"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Data Governance Authority",
+          "knowledge_indicators": ["Global data protection standards (GDPR, UN Privacy Guidelines)", "National Data Governance Framework Policy (NDGFP)"],
+          "skill_indicators": ["Represents MoSPI on Data Protection Board of India consultations", "Directs national statistical privacy guidelines"]
+        }
+      ]
+    },
+    {
+      "code": "MGMT-LEAD",
+      "name": "Statistical Leadership & Strategic Vision",
+      "domain": "BEHAVIOURAL_MANAGERIAL",
+      "description": "National statistical vision setting, inter-ministerial data coordination, international representation (UNSD, ESCAP), and steering official statistical reforms.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Organizational Awareness",
+          "knowledge_indicators": ["Understands MoSPI organizational hierarchy and mandate", "Aware of role of National Statistical Commission (NSC)"],
+          "skill_indicators": ["Aligns daily duties with departmental goals"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Team Collaboration",
+          "knowledge_indicators": ["Principles of collaborative public administration", "Cross-divisional workflows (e.g. FOD to DPD to SDRD)"],
+          "skill_indicators": ["Coordinates effectively within survey field teams"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Operational Leader",
+          "knowledge_indicators": ["Leadership techniques for motivating field and analytical cadres", "Conflict resolution in operational survey campaigns"],
+          "skill_indicators": ["Manages regional training centers and survey teams to meet strict deadlines"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Strategic Director",
+          "knowledge_indicators": ["Inter-ministerial data governance frameworks", "Modernization roadmap design for statistical systems"],
+          "skill_indicators": ["Chairs Technical Committees and guides division heads on multi-year statistical planning", "Represents MoSPI in inter-departmental taskforces"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Statistical Statesman",
+          "knowledge_indicators": ["Global statistical diplomacy", "Transformational public governance in emerging economies"],
+          "skill_indicators": ["Directs national statistical policy as Director General or Chief Statistician of India", "Leads Indian delegation at United Nations Statistical Commission (UNSC)"]
+        }
+      ]
+    },
+    {
+      "code": "MGMT-ETHC",
+      "name": "Statistical Ethics & UN Fundamental Principles",
+      "domain": "BEHAVIOURAL_MANAGERIAL",
+      "description": "UN Fundamental Principles of Official Statistics, integrity, political neutrality, professional independence, data confidentiality, and public trust in official numbers.",
+      "levels": [
+        {
+          "level": 1,
+          "descriptor": "Awareness of Ethical Standards",
+          "knowledge_indicators": ["Understands that official data must never be fabricated or altered"],
+          "skill_indicators": ["Adheres strictly to Code of Conduct for civil servants"]
+        },
+        {
+          "level": 2,
+          "descriptor": "Foundational Ethical Practice",
+          "knowledge_indicators": ["Knowledge of UN Fundamental Principle 1 (Relevance, Impartiality and Equal Access) and Principle 2 (Professional Standards)", "Collection of Statistics Act 2008 provisions"],
+          "skill_indicators": ["Assures survey respondents of complete data confidentiality under the law"]
+        },
+        {
+          "level": 3,
+          "descriptor": "Competent Guardian of Statistical Integrity",
+          "knowledge_indicators": ["Handling external pressure or bias in data recording", "Advance release calendars and simultaneous public release principles"],
+          "skill_indicators": ["Ensures impartial, transparent dissemination of statistical results", "Audits field verification reports for anomalies without fear or favor"]
+        },
+        {
+          "level": 4,
+          "descriptor": "Proficient Statistical Ethics Champion",
+          "knowledge_indicators": ["Scientific protocols for transparent error corrections and revision policy", "Institutional mechanisms protecting professional independence of official statisticians"],
+          "skill_indicators": ["Defends methodology rigorously in public consultations and media queries", "Investigates statistical misconduct allegations"]
+        },
+        {
+          "level": 5,
+          "descriptor": "Master Custodian of Public Trust",
+          "knowledge_indicators": ["Global statistical ethics jurisprudence", "Charter of professional statistical ethics"],
+          "skill_indicators": ["Upholds national statistical integrity at the highest constitutional and parliamentary forums"]
+        }
+      ]
+    }
+  ]
+}

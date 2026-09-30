@@ -1,0 +1,42 @@
+services:
+  - type: web
+    name: karmayogi-sankhyiki-backend
+    runtime: python
+    region: singapore
+    plan: free
+    branch: main
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        sync: false
+        # Paste your Neon.tech connection string with sslmode=require:
+        # postgresql://user:password@ep-sample-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 1440
+      - key: NVIDIA_API_KEY
+        sync: false
+      - key: NVIDIA_BASE_URL
+        value: https://integrate.api.nvidia.com/v1
+      - key: NVIDIA_MODEL
+        value: meta/llama-3.2-11b-vision-instruct
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: IGOT_API_BASE_URL
+        value: https://igotkarmayogi.gov.in/api/v1
+      - key: IGOT_MOCK_MODE
+        value: "true"
+      - key: PUBLIC_VERIFY_BASE_URL
+        sync: false
+        # e.g. https://karmayogi-sankhyiki.vercel.app/verify

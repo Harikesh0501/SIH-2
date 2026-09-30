@@ -1,0 +1,33 @@
+GOVERNMENT OF INDIA
+MINISTRY OF STATISTICS AND PROGRAMME IMPLEMENTATION (MoSPI)
+NATIONAL STATISTICAL SYSTEMS TRAINING ACADEMY (NSSTA)
+
+TRAINING HANDBOOK ON DATA QUALITY ASSURANCE FRAMEWORK (DQAF) & STATISTICAL GOVERNANCE
+CHAPTER 1: PRINCIPLES, PRIVACY AND ACCREDITATION
+
+1. MoSPI Data Quality Assurance Framework (DQAF)
+The National Statistical Commission (NSC) of India mandates adherence to the Data Quality Assurance Framework (DQAF), structured around five primary dimensions:
+1. Integrity and Professional Independence: Statistics must be produced without political or administrative interference, ensuring impartiality, objectivity, and transparency in release schedules.
+2. Methodological Soundness: Adherence to international standards, including National Industrial Classification (NIC-2008), National Product Classification for Services (NPCS), and IMF Special Data Dissemination Standards (SDDS).
+3. Accuracy and Reliability: Rigorous survey design, sampling error estimation, validation via digital Computer Assisted Personal Interviewing (CAPI), and minimize non-sampling errors.
+4. Serviceability and Timeliness: Regular advance release calendars, periodic data revisions, and maintaining consistency across related statistical domains.
+5. Accessibility and Clarity: Dissemination through open data portals, accompanying metadata, microdata access protocols, and prompt statistical advisories.
+
+2. UN Fundamental Principles of Official Statistics
+Adopted by the UN General Assembly and formally approved by the Union Cabinet of India:
+- Principle 1: Relevance, Impartiality, and Equal Access - Official statistics represent an indispensable public good.
+- Principle 2: Professional Standards and Ethics - Scientific principles and professional ethics guide data collection methods.
+- Principle 3: Accountability and Transparency - Clear metadata and methodological transparency for public interpretation.
+- Principle 4: Prevention of Misuse - The statistical agency is entitled to comment on erroneous interpretation and misuse of statistics.
+- Principle 5: Sources of Official Statistics - Choice of data source (surveys, administrative records) based on quality, cost, and respondent burden.
+- Principle 6: Confidentiality - Microdata collected from natural or legal persons must be held strictly confidential and used exclusively for statistical purposes.
+- Principle 7: Legislation - Laws and regulations governing statistical operations must be made public.
+- Principle 8: National Coordination - Coordinated statistical activities across central ministries and State Directorates of Economics and Statistics (DES).
+- Principle 9: International Standards - Adoption of international statistical concepts and classifications.
+- Principle 10: International Cooperation - Bilateral and multilateral collaboration to improve national statistical systems.
+
+3. Digital Personal Data Protection (DPDP) Act 2023 & Statistical Fiduciary
+Under Section 17 of the DPDP Act 2023, personal data processed strictly for research, statistical, or archiving purposes is exempt from certain notice requirements, provided:
+a) The processing does not result in any significant decision or measure affecting the specific data principal (respondent).
+b) Adequate technical and organizational measures (de-identification, anonymization, k-anonymity, aggregation) are implemented to prevent re-identification.
+c) Microdata access to external researchers undergoes strict Disclosure Avoidance System (DAS) scrutiny.

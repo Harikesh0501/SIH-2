@@ -1,0 +1,78 @@
+{
+  "role_benchmarks": [
+    {
+      "designation": "Junior Statistical Officer",
+      "cadre": "SSS",
+      "division_context": "Field Operations Division (FOD) & Data Processing Division (DPD)",
+      "benchmarks": [
+        {"competency_code": "STAT-SURV", "required_level": 3, "is_mandatory": true, "weight": 1.8},
+        {"competency_code": "STAT-PRICE", "required_level": 3, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "STAT-DQAF", "required_level": 3, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "TECH-PYST", "required_level": 2, "is_mandatory": true, "weight": 1.2},
+        {"competency_code": "TECH-DBQL", "required_level": 2, "is_mandatory": true, "weight": 1.2},
+        {"competency_code": "GOV-CYBER", "required_level": 2, "is_mandatory": true, "weight": 1.0},
+        {"competency_code": "MGMT-ETHC", "required_level": 3, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "STAT-LABOUR", "required_level": 2, "is_mandatory": false, "weight": 1.0},
+        {"competency_code": "TECH-GIS", "required_level": 2, "is_mandatory": false, "weight": 1.0}
+      ]
+    },
+    {
+      "designation": "Senior Statistical Officer",
+      "cadre": "SSS",
+      "division_context": "Survey Design and Research Division (SDRD) & Economic Statistics Division (ESD)",
+      "benchmarks": [
+        {"competency_code": "STAT-SURV", "required_level": 4, "is_mandatory": true, "weight": 1.8},
+        {"competency_code": "STAT-LABOUR", "required_level": 3, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "STAT-INDUS", "required_level": 3, "is_mandatory": true, "weight": 1.4},
+        {"competency_code": "STAT-DQAF", "required_level": 4, "is_mandatory": true, "weight": 1.6},
+        {"competency_code": "TECH-PYST", "required_level": 3, "is_mandatory": true, "weight": 1.3},
+        {"competency_code": "TECH-RPRG", "required_level": 3, "is_mandatory": true, "weight": 1.3},
+        {"competency_code": "TECH-GIS", "required_level": 3, "is_mandatory": true, "weight": 1.2},
+        {"competency_code": "GOV-DPDP", "required_level": 3, "is_mandatory": true, "weight": 1.4},
+        {"competency_code": "MGMT-ETHC", "required_level": 4, "is_mandatory": true, "weight": 1.5}
+      ]
+    },
+    {
+      "designation": "Assistant Director",
+      "cadre": "ISS",
+      "division_context": "National Accounts Division (NAD) & Social Statistics Division (SSD)",
+      "benchmarks": [
+        {"competency_code": "STAT-NAS", "required_level": 3, "is_mandatory": true, "weight": 1.8},
+        {"competency_code": "STAT-SDG", "required_level": 4, "is_mandatory": true, "weight": 1.6},
+        {"competency_code": "STAT-PRICE", "required_level": 4, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "TECH-AIML", "required_level": 3, "is_mandatory": true, "weight": 1.4},
+        {"competency_code": "TECH-VIZ", "required_level": 4, "is_mandatory": true, "weight": 1.3},
+        {"competency_code": "GOV-DPDP", "required_level": 4, "is_mandatory": true, "weight": 1.4},
+        {"competency_code": "MGMT-COMM", "required_level": 4, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "MGMT-LEAD", "required_level": 3, "is_mandatory": true, "weight": 1.3}
+      ]
+    },
+    {
+      "designation": "Deputy Director",
+      "cadre": "ISS",
+      "division_context": "National Accounts Division (NAD) & Coordination Division",
+      "benchmarks": [
+        {"competency_code": "STAT-NAS", "required_level": 4, "is_mandatory": true, "weight": 1.8},
+        {"competency_code": "STAT-SDG", "required_level": 4, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "STAT-DQAF", "required_level": 5, "is_mandatory": true, "weight": 1.7},
+        {"competency_code": "TECH-AIML", "required_level": 4, "is_mandatory": true, "weight": 1.4},
+        {"competency_code": "GOV-DPDP", "required_level": 4, "is_mandatory": true, "weight": 1.5},
+        {"competency_code": "MGMT-LEAD", "required_level": 4, "is_mandatory": true, "weight": 1.6},
+        {"competency_code": "MGMT-COMM", "required_level": 4, "is_mandatory": true, "weight": 1.4}
+      ]
+    },
+    {
+      "designation": "Director / Deputy Director General",
+      "cadre": "ISS",
+      "division_context": "Ministry Leadership & International Statistical Coordination",
+      "benchmarks": [
+        {"competency_code": "STAT-NAS", "required_level": 5, "is_mandatory": true, "weight": 2.0},
+        {"competency_code": "STAT-SDG", "required_level": 5, "is_mandatory": true, "weight": 1.8},
+        {"competency_code": "GOV-DPDP", "required_level": 5, "is_mandatory": true, "weight": 1.7},
+        {"competency_code": "MGMT-LEAD", "required_level": 5, "is_mandatory": true, "weight": 2.0},
+        {"competency_code": "MGMT-COMM", "required_level": 5, "is_mandatory": true, "weight": 1.8},
+        {"competency_code": "MGMT-ETHC", "required_level": 5, "is_mandatory": true, "weight": 2.0}
+      ]
+    }
+  ]
+}
